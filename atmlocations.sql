@@ -1,4 +1,4 @@
-INSERT INTO  public."ATM locations"(BankName,Address,County,City,State,ZipCode)
+INSERT INTO  public."ATM locations"("BankName","Address","County","City","State","ZipCode")
 VALUES('Wells Fargo ATM','500 W 30 STREET','New York','New York','NY',1000), 
 ('JPMorgan Chase Bank, National Association','1260 Broadway','New York','New York','NY',10001), 
 ('Sterling National Bank of New York','1261 Fifth Avenue','New York','New York','NY',10001), 
