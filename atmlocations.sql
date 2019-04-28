@@ -653,4 +653,3 @@ VALUES('Wells Fargo ATM','500 W 30 STREET','New York','New York','NY',1000),
 ('JPMorgan Chase Bank, National Association','331-337 South End Avenue','New York','New York','NY',10280), 
 ('USAlliance Financial','200 Vesey Street','New York','New York','NY',10281), 
 ('TD Bank N.A.','90 Fifth Avenue','New York','New York','NY',11011);
- 
