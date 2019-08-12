@@ -1,8 +1,10 @@
-create table "Zip coordinates" (
-    zip char(5) primary key,
-    city varchar(64),
-    state char(2),
-    geog geography
+CREATE TABLE public."Zip coordinates"
+(
+    zip character(5) COLLATE pg_catalog."default" NOT NULL,
+    city character varying(64) COLLATE pg_catalog."default",
+    state character(2) COLLATE pg_catalog."default",
+    geog geography,
+    CONSTRAINT "Zip coordinates_pkey" PRIMARY KEY (zip)
 );
 
 INSERT INTO  public."Zip coordinates"("zip","city","state","geog")
