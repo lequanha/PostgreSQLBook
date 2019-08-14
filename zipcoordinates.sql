@@ -1,6 +1,6 @@
 CREATE TABLE public."Zip coordinates"
 (
-    zip character(5) COLLATE pg_catalog."default" NOT NULL,
+    zip integer NOT NULL,
     city character varying(64) COLLATE pg_catalog."default",
     state character(2) COLLATE pg_catalog."default",
     geog geography,
