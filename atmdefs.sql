@@ -8,10 +8,7 @@ CREATE SEQUENCE public."ATM locations_ID_seq"
 ALTER SEQUENCE public."ATM locations_ID_seq"
     OWNER TO dba;
 
-GRANT SELECT, USAGE ON SEQUENCE public."ATM locations_ID_seq" TO atm_user;
-
 GRANT ALL ON SEQUENCE public."ATM locations_ID_seq" TO dba;
-
 
 CREATE TABLE public."ATM locations"
 (
@@ -30,11 +27,7 @@ TABLESPACE pg_default;
 ALTER TABLE public."ATM locations"
     OWNER to dba;
 
-GRANT ALL ON TABLE public."ATM locations" TO atm_user;
-
 GRANT ALL ON TABLE public."ATM locations" TO dba;
-
-GRANT SELECT ON TABLE public."ATM locations" TO web_anon;
 
 COMMENT ON TABLE public."ATM locations"
     IS 'ATM locations of New York city';
